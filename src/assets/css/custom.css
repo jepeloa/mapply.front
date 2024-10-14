@@ -1,0 +1,38 @@
+.like-button.clicked {
+    animation: animation 0.5s ease-in-out;
+    
+}
+
+.dislike-button.clicked {
+    animation: animation 0.5s ease-in-out;
+}
+
+.code_block {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+
+
+.link_items {
+    cursor: pointer;
+}
+
+@keyframes animation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+}
+
+
